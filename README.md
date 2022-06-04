@@ -1,4 +1,6 @@
-# CPSC 2650 Lab 3
+# CPSC 2650 Assignment 3
+
+## Lab 3 extension
 
 ### Setup
 
@@ -173,3 +175,15 @@ Add the following in the `componentDidMount` method of the `Application` class r
         });
 
 At this point, if you refresh the application page, you should be taken to the shopping list and able to add items.
+
+## Extension for assignment 3
+
+### Prerequisites
+- Create free account on Stripe as individual / individual business
+- Create free account on Sendgrid and read their documentation (https://docs.sendgrid.com/for-developers/sending-email/quickstart-nodejs) - you can use localhost url in the domain authentication phase
+- Create free account on Twillio and read their documentation (https://www.twilio.com/docs/sms/quickstart/node)
+
+### Integrations
+- Integrate stripe checkout page service or any payment service that you'd like to your e-commerce website
+- Send email to users when their order is placed successfully
+- Send sms to users about their order on their phone
